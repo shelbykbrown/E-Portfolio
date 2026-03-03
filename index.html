@@ -15,22 +15,22 @@
       <nav>
         <div class="personal__logo">Shelby Brown</div>
         <ul class="nav__link--list">
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#languages"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
               >Languages</a
             >
           </li>
-          <li>
+          <li class="nav__link">
             <a
-              href=""
+              href="#projects"
               class="nav__link--anchor link__hover-effect link__hover-effect--black"
-              >Project</a
+              >Projects</a
             >
           </li>
-          <li>
-            <a href="" class="nav__link--anchor nav__link--anchor-primary"
+          <li class="nav__link">
+            <a href="mailto:shelbykbrown@gmail.com" class="nav__link--anchor nav__link--anchor-primary"
               >Contact</a
             >
           </li>
@@ -47,7 +47,7 @@
               />
             </figure>
             <h1 class="about-me__info--title">
-              Hey! I'm <span class="text--purple">Shelby Brown</span>
+              Hey! I'm <span class="text--purple">Shelby Brown</span>&nbsp;<span class="wave">👋</span>
             </h1>
             <p class="about-me__info--para">
               I'm a
@@ -66,7 +66,7 @@
               <a href="" class="about-me__link">
                 <i class="fa-regular fa-envelope"></i>
               </a>
-              <a href="" class="about-me__link">
+              <a href="./assets/Example Resume.pdf" target="_blank" class="about-me__link">
                 <i class="fa-regular fa-file-pdf"></i>
               </a>
             </div>
@@ -184,7 +184,8 @@
                 <img
                   src="./assets/loopit.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
                   <h3 class="project__description--title">Car Sales Project</h3>
                   <h4 class="project__description--sub-title">
@@ -196,10 +197,18 @@
                     adipisicing elit. Voluptas, doloremque.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.github.com/yourlink"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-github"></i>
                     </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-link"></i>
                     </a>
                   </div>
@@ -211,7 +220,8 @@
                 <img
                   src="./assets/loopit.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
                   <h3 class="project__description--title">Car Sales Project</h3>
                   <h4 class="project__description--sub-title">
@@ -223,10 +233,18 @@
                     adipisicing elit. Voluptas, doloremque.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.github.com/yourlink"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-github"></i>
                     </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-link"></i>
                     </a>
                   </div>
@@ -238,7 +256,8 @@
                 <img
                   src="./assets/loopit.png"
                   class="project__img"
-                  alt="Car subscription project"/>
+                  alt="Car subscription project"
+                />
                 <div class="project__description">
                   <h3 class="project__description--title">Car Sales Project</h3>
                   <h4 class="project__description--sub-title">
@@ -250,10 +269,18 @@
                     adipisicing elit. Voluptas, doloremque.
                   </p>
                   <div class="project__description--links">
-                    <a href="https://www.github.com/yourlink" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.github.com/yourlink"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-github"></i>
                     </a>
-                    <a href="https://www.yourwebsite.com" target="_blank" class="project__description--link">
+                    <a
+                      href="https://www.yourwebsite.com"
+                      target="_blank"
+                      class="project__description--link"
+                    >
                       <i class="fa brands fa-link"></i>
                     </a>
                   </div>
@@ -266,28 +293,43 @@
     </section>
     <footer>
       <div class="row footer__row">
-        <a href="#">
-          <figure>
-            <img src="./assets/logo.svg" class="footer__logo--img" alt="">
-          </figure> 
+        <a href="#" class="footer__anchor">
+          <figure class="footer__logo">
+            <img src="./assets/logo.svg" class="footer__logo--img" alt="" />
+          </figure>
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
         </a>
         <div class="footer__social--list">
-          <a href="https://google.com" class="
-          footer__social--link
-          link__hover-effect
-          link__hover-effect--white" target="_blank">GitHub</a>
-           <a href="https://google.com" class="
-          footer__social--link
-          link__hover-effect
-          link__hover-effect--white" target="_blank">LinkedIn</a>
-           <a href="mailto:shelbykbrown@gmail.com" class="
-          footer__social--link
-          link__hover-effect
-          link__hover-effect--white" target="_blank">Email</a>
-           <a href="./assets/Example Resume.pdf" class="
-          footer__social--link
-          link__hover-effect
-          link__hover-effect--white" target="_blank">Resume</a>
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >GitHub</a
+          >
+          <a
+            href="https://google.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a
+            href="mailto:shelbykbrown@gmail.com"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Email</a
+          >
+          <a
+            href="./assets/Example Resume.pdf"
+            class="footer__social--link link__hover-effect link__hover-effect--white"
+            target="_blank"
+            >Resume</a
+          >
+        </div>
+        <div class="footer__copyright">
+          Copyright © 2026 Shelby Brown. All rights reserved.
         </div>
       </div>
     </footer>
